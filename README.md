@@ -3,8 +3,8 @@ Steps for deploying a sinatra app to heroku
 
 1. Create an account at heroku.com
 2. In the terminal, run:
- `$ heroku login`
- `$ heroku create`
+ * `$ heroku login`
+ * `$ heroku create`
 
 3. Back in the heroku dashboard:
    a) find the project that's been created for you, and click it.
