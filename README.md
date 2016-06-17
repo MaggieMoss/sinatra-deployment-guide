@@ -1,4 +1,4 @@
-# sinatra-deployment-guide
+# Deploy Sinatra Apps to Heroku
 Steps for deploying a sinatra app to heroku
 
 1. Create an account at heroku.com
