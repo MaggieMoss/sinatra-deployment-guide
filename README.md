@@ -24,3 +24,4 @@ Steps for deploying a sinatra app to heroku
 
 Links:
 * https://devcenter.heroku.com/articles/rack
+* https://devcenter.heroku.com/articles/git
