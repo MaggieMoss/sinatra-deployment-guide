@@ -1,5 +1,5 @@
 # Deploy Sinatra Apps to Heroku
-* Before deploying to heroku, you'll want to edit your Gemfile and your config/database.rb file. Use the examples in this repo as a guide. 
+* Before deploying to heroku, you'll want to edit your Gemfile and your config/database.rb file. Use the examples in this repo as a guide. _NOTE: If you are deploying your finstagram app for the Intro to Web course your files should match exactly_
 
 
 Steps for deploying a sinatra app to heroku
