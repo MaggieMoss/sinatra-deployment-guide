@@ -6,8 +6,9 @@ Steps for deploying a sinatra app to heroku
 
 1. Create an account at heroku.com
 2. In the terminal, run:
- * `$ heroku login`
- * `$ heroku create`
+ * `heroku login`
+ * Next, you will be prompted to enter the email you entered for your _Heroku_ account, along with the password (the cursor _will not move_ when you enter your password).
+ * Next, run: `heroku create`
 
 3. Back in the heroku dashboard:
   * Find the project that's been created for you, and click it.
@@ -19,8 +20,8 @@ Steps for deploying a sinatra app to heroku
 5. Run `bundle install`
 6. Save your code using git:
  * a) `git status`
- * b) `git add -A`
- * c) `git commit -am "Readies app for deployment"`
+ * b) `git add .`
+ * c) `git commit -m "Readies app for deployment"`
 7. Launch with: `git push heroku`
 8. Create the database: `heroku run bundle exec rake db:migrate`
 
