@@ -25,6 +25,14 @@ Steps for deploying a sinatra app to heroku
 7. Launch with: `git push heroku`
 8. Create the database: `heroku run bundle exec rake db:migrate`
 
+## Updating your app
+1. `git add .`
+2. `git commit -m "your-descriptive-git-message"`
+3. `git push heroku`
+
+If you have made changes to the database
+4. `heroku run bundle exec rake db:migrate`
+
 
 Links:
 * https://devcenter.heroku.com/articles/rack
