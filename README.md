@@ -14,6 +14,7 @@ Steps for deploying a sinatra app to heroku
 
 3. Back in the heroku dashboard ([dashboard link](https://dashboard.heroku.com/apps)):
   * Find the project that's been created for you, and click it.
+  * Click the **resources** tab
   * Add an add-on for postgres: "Heroku Postgres"
   * Click it to view its details
   * Copy its URL (You’ll have to click a show button, it’ll be hidden) - it'll be a long string like: postgres://esfdizmindqtqp:W4B8yrM...
